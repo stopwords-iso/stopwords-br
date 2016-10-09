@@ -1,0 +1,26 @@
+{
+  "name": "stopwords-br",
+  "version": "0.1.0",
+  "author": "Gene Diaz <genediazjr@gmail.com> (http://genediazjr.com)",
+  "description": "The most comprehensive collection of stopwords for the breton language.",
+  "keywords": [
+    "breton",
+    "stopwords",
+    "stop words"
+  ],
+  "license": "MIT",
+  "repository": "git://github.com/stopwords-iso/stopwords-br",
+  "bugs": "https://github.com/stopwords-iso/stopwords-br/issues",
+  "main": "stopwords-br.json",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "build": "stopwords-collator -s raw -o stopwords-br",
+    "test": "npm run build && jsonlint stopwords-br.json -q"
+  },
+  "devDependencies": {
+    "stopwords-collator": "*",
+    "jsonlint": "1.6.x"
+  }
+}

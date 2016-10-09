@@ -1,0 +1,21 @@
+{
+  "name": "stopwords-br",
+  "description": "The most comprehensive collection of stopwords for the breton language.",
+  "keywords": [
+    "breton",
+    "stopwords",
+    "stop words"
+  ],
+  "homepage": "https://github.com/stopwords-iso/stopwords-br",
+  "authors": [
+    "Gene Diaz <genediazjr@gmail.com>"
+  ],
+  "license": "MIT",
+  "main": "stopwords-br.json",
+  "ignore": [
+    "**/.*",
+    "raw",
+    "node_modules",
+    "bower_components"
+  ]
+}
